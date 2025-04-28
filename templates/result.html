@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>📸 Kết quả xử lý & nhận diện</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f8f8f8; padding: 30px; }
+    h1 { text-align: center; color: #333; margin-bottom: 40px; }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 320px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .back-button {
+      display: block;
+      width: 200px;
+      margin: 50px auto 0;
+      padding: 12px;
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>📸 Kết quả xử lý & nhận diện</h1>
+
+<div class="gallery">
+  {% for original, processed in zipped_images %}
+    <div class="card">
+      <h3>{{ original }}</h3>
+      <img src="{{ url_for('uploaded_file', filename=original) }}" alt="Ảnh gốc">
+      <img src="{{ url_for('result_file', filename=processed) }}" alt="Ảnh detect">
+    </div>
+  {% endfor %}
+</div>
+
+{% if videos %}
+  <h3>🎬 Video đã xử lý:</h3>
+  <ul>
+    {% for video in videos %}
+      <li><a href="{{ url_for('result_file', filename=video) }}">{{ video }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<a href="/" class="back-button">⬅ Quay lại trang upload</a>
+
+</body>
+</html>

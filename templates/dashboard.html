@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard YOLO ESP32</title>
+  <meta http-equiv="refresh" content="5"> <!-- Auto reload every 5s -->
+  <style>
+    body { font-family: Arial; background-color: #f4f4f4; padding: 20px; }
+    h1 { color: #333; margin-bottom: 10px; }
+    .image-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .image-grid img {
+      width: 300px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 Dashboard kết quả nhận diện từ ESP32-CAM</h1>
+  <p>(Tự động làm mới mỗi 5 giây)</p>
+
+  <div class="image-grid">
+    {% for img in images %}
+      <img src="{{ url_for('dashboard_image', filename=img) }}" alt="Detected Image">
+    {% endfor %}
+  </div>
+</body>
+</html>
