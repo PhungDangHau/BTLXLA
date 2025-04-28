@@ -22,10 +22,10 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['DASHBOARD_FOLDER'], exist_ok=True)
 
 # Load YOLO model
-model = YOLO('weights/best.pt')
+model = YOLO('weights/best.pt')  # Đường dẫn model
 video_extensions = ['.mp4', '.avi', '.mov', '.mkv']
 
-ESP32_STREAM_URL = "http://192.168.55.61/"  # 🔁 Thay bằng IP ESP32-CAM của bạn
+ESP32_STREAM_URL = "http://192.168.55.61/"  # Thay IP ESP32-CAM của bạn
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -50,7 +50,7 @@ def index():
                 else:
                     model(file_path, save=True, project='runs/detect', name='predict', exist_ok=True)
                     original_images.append(filename)
-                    detection_results.append(filename)  # Map gốc -> detect cùng tên
+                    detection_results.append(filename)
             except Exception as e:
                 print("LỖI YOLO:", e)
 
@@ -82,14 +82,49 @@ def stream_yolo_from_esp32():
             print("⚠️ Không nhận được khung hình.")
             break
 
-        results = model(frame)
-        annotated_frame = results[0].plot()
+        # Resize để giảm delay
+        frame = cv2.resize(frame, (320, 240))
 
-        filename = f"{uuid.uuid4().hex}.jpg"
-        path = os.path.join(app.config['DASHBOARD_FOLDER'], filename)
-        cv2.imwrite(path, annotated_frame)
+        # Nhận diện
+        results = model(frame, conf=0.5)
 
-        cv2.imshow("ESP32-CAM + YOLO", annotated_frame)
+        save_image = False
+        rotten_detected = False  # ✅ Biến kiểm tra có phát hiện rotten
+
+        if results[0].boxes.shape[0] > 0:
+            for box in results[0].boxes:
+                cls_id = int(box.cls[0])
+                label = model.names[cls_id]
+
+                if label == 'rottenoranges':
+                    save_image = True
+                    rotten_detected = True
+                    break
+
+        if save_image:
+            annotated_frame = results[0].plot()
+
+            filename = f"{uuid.uuid4().hex}.jpg"
+            path = os.path.join(app.config['DASHBOARD_FOLDER'], filename)
+            cv2.imwrite(path, annotated_frame)
+
+        # Nếu phát hiện rotten thì overlay màu đỏ
+        if rotten_detected:
+            if save_image:
+                display_frame = annotated_frame.copy()
+            else:
+                display_frame = frame.copy()
+
+            overlay = display_frame.copy()
+            red_overlay = (0, 0, 255)  # BGR đỏ
+            cv2.rectangle(overlay, (0, 0), (overlay.shape[1], overlay.shape[0]), red_overlay, -1)
+            alpha = 0.3
+            display_frame = cv2.addWeighted(overlay, alpha, display_frame, 1 - alpha, 0)
+        else:
+            display_frame = annotated_frame if save_image else frame
+
+        cv2.imshow("ESP32-CAM + YOLO Detection", display_frame)
+
         if cv2.waitKey(1) == ord('q'):
             break
 
