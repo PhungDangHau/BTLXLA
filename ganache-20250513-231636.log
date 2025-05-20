@@ -1,0 +1,709 @@
+[2025/05/13 23:16:36.391] - Starting server with initial configuration: {"gasLimit":6721975,"gasPrice":20000000000,"hardfork":"london","hostname":"127.0.0.1","port":7545,"network_id":1337,"default_balance_ether":100,"total_accounts":10,"unlocked_accounts":[],"locked":false,"vmErrorsOnRPCResponse":true,"verbose":true,"flavor":"ethereum","db_path":"C:\\Users\\phung\\AppData\\Roaming\\Ganache\\ui\\workspaces\\DangHau\\chaindata","mnemonic":"furnace another index found load wreck cram tide radar denial kiwi lesson","logDirectory":"C:\\Users\\phung\\OneDrive\\文档\\BTLXLA"}
+[2025/05/13 23:16:36.490] -    >  eth_blockNumber: []
+[2025/05/13 23:16:36.491] -    >  eth_accounts: []
+[2025/05/13 23:16:36.491] -    >  eth_gasPrice: []
+[2025/05/13 23:16:36.492] -    >  eth_getBlockByNumber: [
+   >   "latest",
+   >   false
+   > ]
+[2025/05/13 23:16:36.492] -    >  eth_subscribe: [
+   >   "newHeads"
+   > ]
+[2025/05/13 23:16:36.496] -    >  eth_accounts: []
+[2025/05/13 23:16:36.497] -    >  eth_subscribe: [
+   >   "newHeads"
+   > ]
+[2025/05/13 23:16:36.497] -    >  eth_getLogs: [
+   >   {
+   >     "fromBlock": null,
+   >     "topics": []
+   >   }
+   > ]
+[2025/05/13 23:16:36.498] -    >  eth_subscribe: [
+   >   "logs",
+   >   {
+   >     "topics": []
+   >   }
+   > ]
+[2025/05/13 23:16:36.498] -    >  eth_subscribe: [
+   >   "newHeads"
+   > ]
+[2025/05/13 23:16:36.499] -    >  eth_getLogs: [
+   >   {
+   >     "fromBlock": null,
+   >     "topics": []
+   >   }
+   > ]
+[2025/05/13 23:16:36.500] -    >  eth_subscribe: [
+   >   "logs",
+   >   {
+   >     "topics": []
+   >   }
+   > ]
+[2025/05/13 23:16:36.505] -    >  eth_getBalance: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.506] -    >  eth_getTransactionCount: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.508] -    >  eth_getBalance: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.509] -    >  eth_getTransactionCount: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.510] -    >  eth_getBalance: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.511] -    >  eth_getTransactionCount: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.512] -    >  eth_getBalance: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.513] -    >  eth_getTransactionCount: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.514] -    >  eth_getBalance: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.515] -    >  eth_getTransactionCount: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.516] -    >  eth_getBalance: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.517] -    >  eth_getTransactionCount: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.518] -    >  eth_getBalance: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.519] -    >  eth_getTransactionCount: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.520] -    >  eth_getBalance: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.521] -    >  eth_getTransactionCount: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.522] -    >  eth_getBalance: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.523] -    >  eth_getTransactionCount: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.524] -    >  eth_getBalance: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.526] -    >  eth_getTransactionCount: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.527] -    >  eth_blockNumber: []
+[2025/05/13 23:16:36.527] -    >  eth_accounts: []
+[2025/05/13 23:16:36.528] -    >  eth_gasPrice: []
+[2025/05/13 23:16:36.532] -    >  eth_getBlockByNumber: [
+   >   "latest",
+   >   false
+   > ]
+[2025/05/13 23:16:36.533] -    >  eth_subscribe: [
+   >   "newHeads"
+   > ]
+[2025/05/13 23:16:36.547] -    >  eth_getBalance: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.548] -    >  eth_getTransactionCount: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.549] -    >  eth_getBalance: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.550] -    >  eth_getTransactionCount: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.551] -    >  eth_getBalance: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.552] -    >  eth_getTransactionCount: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.553] -    >  eth_getBalance: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.554] -    >  eth_getTransactionCount: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.556] -    >  eth_getBalance: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.557] -    >  eth_getTransactionCount: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.558] -    >  eth_getBalance: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.559] -    >  eth_getTransactionCount: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.559] -    >  eth_getBalance: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.560] -    >  eth_getTransactionCount: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.561] -    >  eth_getBalance: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.562] -    >  eth_getTransactionCount: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.563] -    >  eth_getBalance: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.564] -    >  eth_getTransactionCount: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.565] -    >  eth_getBalance: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.566] -    >  eth_getTransactionCount: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.569] -    >  eth_getBalance: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.570] -    >  eth_getTransactionCount: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.571] -    >  eth_getBalance: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.574] -    >  eth_getTransactionCount: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.575] -    >  eth_getBalance: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.576] -    >  eth_getTransactionCount: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.577] -    >  eth_getBalance: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.578] -    >  eth_getTransactionCount: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.579] -    >  eth_getBalance: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.580] -    >  eth_getTransactionCount: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.581] -    >  eth_getBalance: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.583] -    >  eth_getTransactionCount: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.584] -    >  eth_getBalance: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.585] -    >  eth_getTransactionCount: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.586] -    >  eth_getBalance: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.587] -    >  eth_getTransactionCount: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.589] -    >  eth_getBalance: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.590] -    >  eth_getTransactionCount: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.591] -    >  eth_getBalance: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.592] -    >  eth_getTransactionCount: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.593] -    >  eth_getBalance: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.597] -    >  eth_getTransactionCount: [
+   >   "0x45b03f063f2a5e84dd0f0d274a579b202e785df9",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.599] -    >  eth_getBalance: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.600] -    >  eth_getTransactionCount: [
+   >   "0xf8d51f725d176e9ba831ea88db984a4fd948d617",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.602] -    >  eth_getBalance: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.603] -    >  eth_getTransactionCount: [
+   >   "0x9b8be51783f8b8d655cad6d0fcf4c2128da5c50e",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.605] -    >  eth_getBalance: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.606] -    >  eth_getTransactionCount: [
+   >   "0xdf59b7d80d7e832dfe87ab6b90ebd189dcad12e6",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.607] -    >  eth_getBalance: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.608] -    >  eth_getTransactionCount: [
+   >   "0x425390b2b12a3f58862d93e58b87028841cf4840",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.609] -    >  eth_getBalance: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.610] -    >  eth_getTransactionCount: [
+   >   "0x5c23fca56c2c4192ad23e8ca064c4cac4d0f7f65",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.611] -    >  eth_getBalance: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.613] -    >  eth_getTransactionCount: [
+   >   "0x7da99288e12f5b7142bf806c9293368d5557bc26",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.614] -    >  eth_getBalance: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.615] -    >  eth_getTransactionCount: [
+   >   "0x3a2def2b1173621eefe5acf3f938f0eb173ac495",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.615] -    >  eth_getBalance: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.616] -    >  eth_getTransactionCount: [
+   >   "0xef576e66d7c1ae5c042f1f21c43bf2c3d2948a4f",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.618] -    >  eth_getBalance: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:36.618] -    >  eth_getTransactionCount: [
+   >   "0x5c37919be8144987ba49d70938deef5e9c91bc28",
+   >   "latest"
+   > ]
+[2025/05/13 23:16:39.675] -    >  eth_getBlockByNumber: [
+   >   "0xf3",
+   >   false
+   > ]
+[2025/05/13 23:16:39.682] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0xcadaa66612f3cc0a4358fd8eef086df3df6db04d3201e577a659708a7b4a56cc"
+   > ]
+[2025/05/13 23:16:39.685] -    >  eth_getBlockByNumber: [
+   >   "0xf4",
+   >   false
+   > ]
+[2025/05/13 23:16:39.687] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x6919a54b081f91c7ff9cc163ed91d72eaabe0a8cebbbeb61df5bc1682e63733d"
+   > ]
+[2025/05/13 23:16:39.690] -    >  eth_getBlockByNumber: [
+   >   "0xf5",
+   >   false
+   > ]
+[2025/05/13 23:16:39.693] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x50096723dd858fef977c3aab0fa210509887f28b4da0c9965555593f2970b5e8"
+   > ]
+[2025/05/13 23:16:39.695] -    >  eth_getBlockByNumber: [
+   >   "0xf6",
+   >   false
+   > ]
+[2025/05/13 23:16:39.699] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0xd47e13489432d22abe6e95e2a507df7a3fb11c1e15002530f1d80f59e6f9e999"
+   > ]
+[2025/05/13 23:16:39.702] -    >  eth_getBlockByNumber: [
+   >   "0xf7",
+   >   false
+   > ]
+[2025/05/13 23:16:39.705] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x97afcc54a18ec843c666147859935b634162c23defd53e1226d0cddcb8cb9adb"
+   > ]
+[2025/05/13 23:16:39.707] -    >  eth_getBlockByNumber: [
+   >   "0xf8",
+   >   false
+   > ]
+[2025/05/13 23:16:39.710] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0xb2fb1d32304ed2f9af031d5ca7361b83f12a32684944627e492fe3c7ffeac648"
+   > ]
+[2025/05/13 23:16:39.713] -    >  eth_getBlockByNumber: [
+   >   "0xf9",
+   >   false
+   > ]
+[2025/05/13 23:16:39.716] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x7985b53e8066dd996fcdb4f196504f9dd58b8c632cda9490b4b975a2268472b2"
+   > ]
+[2025/05/13 23:16:39.718] -    >  eth_getBlockByNumber: [
+   >   "0xfa",
+   >   false
+   > ]
+[2025/05/13 23:16:39.723] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x6f5191783e11cc00d8f0d729a9768ac0d25d69eca87b518cc0558d18795acedc"
+   > ]
+[2025/05/13 23:16:39.726] -    >  eth_getBlockByNumber: [
+   >   "0xfb",
+   >   false
+   > ]
+[2025/05/13 23:16:39.730] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0xfbf40ff1316ed27d4011bc704f1b3b0c44960d96fe19a464e08b1f9dace6c381"
+   > ]
+[2025/05/13 23:16:39.732] -    >  eth_getBlockByNumber: [
+   >   "0xfc",
+   >   false
+   > ]
+[2025/05/13 23:16:39.735] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x06c898c6637a41ab4558ee3ab77a4646fffd1b02f7f77376d8f73d995c3e44d6"
+   > ]
+[2025/05/13 23:16:39.737] -    >  eth_getBlockByNumber: [
+   >   "0xfd",
+   >   false
+   > ]
+[2025/05/13 23:16:39.740] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x4d68419aff89124fca00330d318cc2732316114625de2f3d0e15b138abf60251"
+   > ]
+[2025/05/13 23:16:39.743] -    >  eth_getBlockByNumber: [
+   >   "0xfe",
+   >   false
+   > ]
+[2025/05/13 23:16:39.746] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x513d0de7ec6608ddfdaaaa20aa488509bdcc918db931b9ae0084899fa3524649"
+   > ]
+[2025/05/13 23:16:39.749] -    >  eth_getBlockByNumber: [
+   >   "0xff",
+   >   false
+   > ]
+[2025/05/13 23:16:39.751] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x9bab785f9c1a72b4e85dc6f09b073dbaa1eed3ac3339cc3e1f78ca3f389e5069"
+   > ]
+[2025/05/13 23:16:39.754] -    >  eth_getBlockByNumber: [
+   >   "0x100",
+   >   false
+   > ]
+[2025/05/13 23:16:39.756] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x6056f8d760a26f052b482480abb9128f68190831968cf9e111fb09c38f99dea0"
+   > ]
+[2025/05/13 23:16:39.759] -    >  eth_getBlockByNumber: [
+   >   "0x101",
+   >   false
+   > ]
+[2025/05/13 23:16:39.762] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x15ea9a1963c6bbcf7c661865e18f4dc1dc41b636998e145ebeb894606a041121"
+   > ]
+[2025/05/13 23:16:39.764] -    >  eth_getBlockByNumber: [
+   >   "0x102",
+   >   false
+   > ]
+[2025/05/13 23:16:39.767] -    >  eth_getBlockTransactionCountByHash: [
+   >   "0x95a6fbcc9d32837687553587551f4e15a73ebd394890567486baa8ec8e3661c9"
+   > ]
+[2025/05/13 23:16:45.836] -    >  eth_getBlockByNumber: [
+   >   "0x102",
+   >   true
+   > ]
+[2025/05/13 23:16:45.840] -    >  eth_getTransactionReceipt: [
+   >   "0xd222e3ff7aa1ef6c20e0d6366d6de2b7cfe3c5a2c0064e811486f04c82c8478b"
+   > ]
+[2025/05/13 23:16:47.258] -    >  eth_getTransactionByHash: [
+   >   "0xd222e3ff7aa1ef6c20e0d6366d6de2b7cfe3c5a2c0064e811486f04c82c8478b"
+   > ]
+[2025/05/13 23:16:47.260] -    >  eth_getBlockByNumber: [
+   >   "0x101",
+   >   true
+   > ]
+[2025/05/13 23:16:47.265] -    >  eth_getTransactionReceipt: [
+   >   "0xa8fff3cab4760994a8ca37794a88bc1401048caefeb0dc3aa8d14f99590083ef"
+   > ]
+[2025/05/13 23:16:47.275] -    >  eth_getBlockByNumber: [
+   >   "0x100",
+   >   true
+   > ]
+[2025/05/13 23:16:47.278] -    >  eth_getTransactionReceipt: [
+   >   "0xadd6701907553b9c8a6af8325c15ad9850862a7b7df73ca33d65ce4db5526400"
+   > ]
+[2025/05/13 23:16:47.283] -    >  eth_getBlockByNumber: [
+   >   "0xff",
+   >   true
+   > ]
+[2025/05/13 23:16:47.287] -    >  eth_getTransactionReceipt: [
+   >   "0xc35e1ac03b3553b8bc7bcc8e1794cc48ffdf89091cc119a1a58508160afa9cec"
+   > ]
+[2025/05/13 23:16:47.291] -    >  eth_getBlockByNumber: [
+   >   "0xfe",
+   >   true
+   > ]
+[2025/05/13 23:16:47.296] -    >  eth_getTransactionReceipt: [
+   >   "0x93f8d4b6d651de04158974841d31be521264b89294e47db8ed343b16076df9c4"
+   > ]
+[2025/05/13 23:16:47.301] -    >  eth_getBlockByNumber: [
+   >   "0xfd",
+   >   true
+   > ]
+[2025/05/13 23:16:47.304] -    >  eth_getTransactionReceipt: [
+   >   "0x1a3013943278af81a5918d3b4d4124e0fc35c0036199be7147979d4226c50112"
+   > ]
+[2025/05/13 23:16:47.308] -    >  eth_getBlockByNumber: [
+   >   "0xfc",
+   >   true
+   > ]
+[2025/05/13 23:16:47.312] -    >  eth_getTransactionReceipt: [
+   >   "0xc89b619c6b96d0a6e343fa9c4c0ca0e415dba8b354af1a990251a170f1e52e74"
+   > ]
+[2025/05/13 23:16:47.316] -    >  eth_getBlockByNumber: [
+   >   "0xfb",
+   >   true
+   > ]
+[2025/05/13 23:16:47.319] -    >  eth_getTransactionReceipt: [
+   >   "0xc39438465e023e20e021b346f47098bc0a4a876047ff0e480c7019ff71d959dd"
+   > ]
+[2025/05/13 23:16:47.323] -    >  eth_getBlockByNumber: [
+   >   "0xfa",
+   >   true
+   > ]
+[2025/05/13 23:16:47.327] -    >  eth_getTransactionReceipt: [
+   >   "0x1adb5350c39f83a7888592995df83aa2263e3be31cdc6c627296cb285c77fe12"
+   > ]
+[2025/05/13 23:16:47.331] -    >  eth_getBlockByNumber: [
+   >   "0xf9",
+   >   true
+   > ]
+[2025/05/13 23:16:47.334] -    >  eth_getTransactionReceipt: [
+   >   "0x0b1c965f24d62d4b7ac2a9abed703667f7539e81c6ddebd04d24f9c1e6a1d6e1"
+   > ]
+[2025/05/13 23:16:47.338] -    >  eth_getBlockByNumber: [
+   >   "0xf8",
+   >   true
+   > ]
+[2025/05/13 23:16:47.342] -    >  eth_getTransactionReceipt: [
+   >   "0x38575b09ddcdf7103a1fe255d62baa411b5c77bd47881f032e7f70d27d7cc037"
+   > ]
+[2025/05/13 23:16:55.564] -    >  eth_blockNumber: []
+[2025/05/13 23:17:02.282] -    >  net_version: []
+[2025/05/13 23:17:02.415] -    >  net_version: []
+[2025/05/13 23:17:03.203] -    >  net_version: []
+[2025/05/13 23:17:09.285] -    >  net_version: []
+[2025/05/13 23:17:09.310] -    >  net_version: []
+[2025/05/13 23:17:10.787] -    >  eth_blockNumber: []
+[2025/05/13 23:17:10.894] -    >  eth_call: [
+   >   {
+   >     "data": "0x95d89b41"
+   >   },
+   >   "0x102"
+   > ]
+[2025/05/13 23:17:25.557] -    >  eth_sendRawTransaction: [
+   >   "0x02f9036282053981fa8504a817c8008504a817c800837a12008080b903046080604052348015600f57600080fd5b506102e58061001f6000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063186cd4871461005c5780636ceb6f5f14610078578063d436949514610096578063e1472d08146100b4578063fa951c07146100d2575b600080fd5b610076600480360381019061007191906101b9565b6100dc565b005b61008061014a565b60405161008d9190610208565b60405180910390f35b61009e610150565b6040516100ab9190610208565b60405180910390f35b6100bc610167565b6040516100c99190610208565b60405180910390f35b6100da61016d565b005b816000808282546100ed9190610252565b9250508190555080600160008282546101069190610252565b925050819055507f608eb25313f607249a51105c1ff964c8070fedf6ea1161e53a8980cd1ce63eef828260405161013e929190610286565b60405180910390a15050565b60015481565b60006001546000546101629190610252565b905090565b60005481565b600080819055506000600181905550565b600080fd5b6000819050919050565b61019681610183565b81146101a157600080fd5b50565b6000813590506101b38161018d565b92915050565b600080604083850312156101d0576101cf61017e565b5b60006101de858286016101a4565b92505060206101ef858286016101a4565b9150509250929050565b61020281610183565b82525050565b600060208201905061021d60008301846101f9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061025d82610183565b915061026883610183565b92508282019050808211156102805761027f610223565b5b92915050565b600060408201905061029b60008301856101f9565b6102a860208301846101f9565b939250505056fea2646970667358221220211feaca7a174649be72e4c9791c05ca08d518f6594cbb9977eee30ec5750a6b64736f6c634300081e0033c080a0952d37f95cd20571d7984a87245d0f11de36ff52bc85f5d0317e47e41a16fd2ca02daf618f48bcbe9f099760113da9d1f7bf2ed07191b1485529161ea90a0786fb"
+   > ]
+[2025/05/13 23:17:25.615] -    >  net_version: []
+[2025/05/13 23:17:25.645] -    >  net_version: []
+[2025/05/13 23:17:33.216] -    >  net_version: []
+[2025/05/13 23:17:46.210] -    >  net_version: []
+[2025/05/13 23:17:47.970] -    >  eth_blockNumber: []
+[2025/05/13 23:17:48.204] -    >  net_version: []
+[2025/05/13 23:17:48.393] -    >  net_version: []
+[2025/05/13 23:17:48.413] -    >  net_version: []
+[2025/05/13 23:17:49.392] -    >  eth_blockNumber: []
+[2025/05/13 23:17:49.460] -    >  eth_call: [
+   >   {
+   >     "data": "0x95d89b41"
+   >   },
+   >   "0x102"
+   > ]
+[2025/05/13 23:17:50.729] -    >  eth_sendRawTransaction: [
+   >   "0x02f9036282053981fa8504a817c8008504a817c800837a12008080b903046080604052348015600f57600080fd5b506102e58061001f6000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063186cd4871461005c5780636ceb6f5f14610078578063d436949514610096578063e1472d08146100b4578063fa951c07146100d2575b600080fd5b610076600480360381019061007191906101b9565b6100dc565b005b61008061014a565b60405161008d9190610208565b60405180910390f35b61009e610150565b6040516100ab9190610208565b60405180910390f35b6100bc610167565b6040516100c99190610208565b60405180910390f35b6100da61016d565b005b816000808282546100ed9190610252565b9250508190555080600160008282546101069190610252565b925050819055507f608eb25313f607249a51105c1ff964c8070fedf6ea1161e53a8980cd1ce63eef828260405161013e929190610286565b60405180910390a15050565b60015481565b60006001546000546101629190610252565b905090565b60005481565b600080819055506000600181905550565b600080fd5b6000819050919050565b61019681610183565b81146101a157600080fd5b50565b6000813590506101b38161018d565b92915050565b600080604083850312156101d0576101cf61017e565b5b60006101de858286016101a4565b92505060206101ef858286016101a4565b9150509250929050565b61020281610183565b82525050565b600060208201905061021d60008301846101f9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061025d82610183565b915061026883610183565b92508282019050808211156102805761027f610223565b5b92915050565b600060408201905061029b60008301856101f9565b6102a860208301846101f9565b939250505056fea2646970667358221220211feaca7a174649be72e4c9791c05ca08d518f6594cbb9977eee30ec5750a6b64736f6c634300081e0033c080a0952d37f95cd20571d7984a87245d0f11de36ff52bc85f5d0317e47e41a16fd2ca02daf618f48bcbe9f099760113da9d1f7bf2ed07191b1485529161ea90a0786fb"
+   > ]
+[2025/05/13 23:18:03.225] -    >  net_version: []
+[2025/05/13 23:18:16.214] -    >  net_version: []
+[2025/05/13 23:18:18.223] -    >  eth_blockNumber: []
+[2025/05/13 23:18:18.228] -    >  net_version: []
+[2025/05/13 23:18:33.226] -    >  net_version: []
+[2025/05/13 23:18:46.214] -    >  net_version: []
+[2025/05/13 23:18:48.222] -    >  eth_blockNumber: []
+[2025/05/13 23:18:48.229] -    >  net_version: []
+[2025/05/13 23:19:03.215] -    >  net_version: []
+[2025/05/13 23:19:16.217] -    >  net_version: []
+[2025/05/13 23:19:17.881] -    >  eth_blockNumber: []
+[2025/05/13 23:19:18.204] -    >  net_version: []
+[2025/05/13 23:19:24.969] -    >  net_version: []
+[2025/05/13 23:19:24.989] -    >  net_version: []
+[2025/05/13 23:19:25.964] -    >  eth_blockNumber: []
+[2025/05/13 23:19:26.039] -    >  eth_call: [
+   >   {
+   >     "data": "0x95d89b41"
+   >   },
+   >   "0x102"
+   > ]
+[2025/05/13 23:19:27.340] -    >  eth_sendRawTransaction: [
+   >   "0x02f9036282053981fa8504a817c8008504a817c800839896808080b903046080604052348015600f57600080fd5b506102e58061001f6000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063186cd4871461005c5780636ceb6f5f14610078578063d436949514610096578063e1472d08146100b4578063fa951c07146100d2575b600080fd5b610076600480360381019061007191906101b9565b6100dc565b005b61008061014a565b60405161008d9190610208565b60405180910390f35b61009e610150565b6040516100ab9190610208565b60405180910390f35b6100bc610167565b6040516100c99190610208565b60405180910390f35b6100da61016d565b005b816000808282546100ed9190610252565b9250508190555080600160008282546101069190610252565b925050819055507f608eb25313f607249a51105c1ff964c8070fedf6ea1161e53a8980cd1ce63eef828260405161013e929190610286565b60405180910390a15050565b60015481565b60006001546000546101629190610252565b905090565b60005481565b600080819055506000600181905550565b600080fd5b6000819050919050565b61019681610183565b81146101a157600080fd5b50565b6000813590506101b38161018d565b92915050565b600080604083850312156101d0576101cf61017e565b5b60006101de858286016101a4565b92505060206101ef858286016101a4565b9150509250929050565b61020281610183565b82525050565b600060208201905061021d60008301846101f9565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061025d82610183565b915061026883610183565b92508282019050808211156102805761027f610223565b5b92915050565b600060408201905061029b60008301856101f9565b6102a860208301846101f9565b939250505056fea2646970667358221220211feaca7a174649be72e4c9791c05ca08d518f6594cbb9977eee30ec5750a6b64736f6c634300081e0033c001a091a62e438976b267b5f945f216f0a3b0f2efc842fd4f0cbd83396be4451d89d1a02a3b79eeda038a953391eef90992131a675459069a358b3780919b47c6261449"
+   > ]
+[2025/05/13 23:19:33.203] -    >  net_version: []
+[2025/05/13 23:19:46.206] -    >  net_version: []
+[2025/05/13 23:19:47.942] -    >  eth_blockNumber: []
+[2025/05/13 23:19:48.206] -    >  net_version: []
+[2025/05/13 23:20:03.201] -    >  net_version: []
+[2025/05/13 23:20:16.207] -    >  net_version: []
+[2025/05/13 23:20:17.879] -    >  eth_blockNumber: []
+[2025/05/13 23:20:18.202] -    >  net_version: []
+[2025/05/13 23:20:28.070] -    >  eth_blockNumber: []
+[2025/05/13 23:20:33.205] -    >  net_version: []
+[2025/05/13 23:20:46.209] -    >  net_version: []
+[2025/05/13 23:20:48.212] -    >  net_version: []
+[2025/05/13 23:21:03.204] -    >  eth_blockNumber: []
+[2025/05/13 23:21:03.210] -    >  net_version: []
+[2025/05/13 23:21:16.214] -    >  net_version: []
+[2025/05/13 23:21:18.228] -    >  net_version: []
+[2025/05/13 23:21:33.220] -    >  eth_blockNumber: []
+[2025/05/13 23:21:33.225] -    >  net_version: []
+[2025/05/13 23:21:46.207] -    >  net_version: []
+[2025/05/13 23:21:48.202] -    >  net_version: []
+[2025/05/13 23:21:53.627] -    >  eth_blockNumber: []
+[2025/05/13 23:21:58.439] -    >  eth_chainId: []
+[2025/05/13 23:22:03.210] -    >  net_version: []
+[2025/05/13 23:22:13.633] -    >  eth_blockNumber: []
+[2025/05/13 23:22:16.209] -    >  net_version: []
+[2025/05/13 23:22:18.207] -    >  net_version: []
+[2025/05/13 23:22:33.211] -    >  net_version: []
+[2025/05/13 23:22:33.640] -    >  eth_blockNumber: []
+[2025/05/13 23:22:46.224] -    >  net_version: []
+[2025/05/13 23:22:48.202] -    >  net_version: []
+[2025/05/13 23:22:53.656] -    >  eth_blockNumber: []
+[2025/05/13 23:23:03.209] -    >  net_version: []
+[2025/05/13 23:23:16.222] -    >  net_version: []
+[2025/05/13 23:23:18.223] -    >  net_version: []
+[2025/05/13 23:23:33.219] -    >  eth_blockNumber: []
+[2025/05/13 23:23:33.224] -    >  net_version: []
+[2025/05/13 23:23:46.218] -    >  net_version: []
+[2025/05/13 23:23:48.225] -    >  net_version: []
+[2025/05/13 23:24:03.222] -    >  eth_blockNumber: []
+[2025/05/13 23:24:03.227] -    >  net_version: []
+[2025/05/13 23:24:16.218] -    >  net_version: []
+[2025/05/13 23:24:18.231] -    >  net_version: []
+[2025/05/13 23:24:57.335] -    >  eth_blockNumber: []
+[2025/05/13 23:24:57.424] -    >  net_version: []
+[2025/05/13 23:24:57.433] -    >  net_version: []
+[2025/05/13 23:25:03.225] -    >  net_version: []
+[2025/05/13 23:25:16.211] -    >  net_version: []
+[2025/05/13 23:25:18.230] -    >  eth_blockNumber: []
+[2025/05/13 23:25:18.235] -    >  net_version: []
+[2025/05/13 23:25:33.221] -    >  net_version: []
+[2025/05/13 23:25:46.596] -    >  net_version: []
+[2025/05/13 23:25:48.227] -    >  eth_blockNumber: []
+[2025/05/13 23:25:48.233] -    >  net_version: []
+[2025/05/13 23:26:13.218] -    >  eth_blockNumber: []
+[2025/05/13 23:26:13.223] -    >  net_version: []
+[2025/05/13 23:27:13.212] -    >  net_version: []
+[2025/05/13 23:27:13.223] -    >  eth_blockNumber: []
+[2025/05/13 23:27:13.229] -    >  net_version: []
+[2025/05/13 23:28:13.221] -    >  net_version: []
+[2025/05/13 23:28:13.232] -    >  eth_blockNumber: []
+[2025/05/13 23:28:13.239] -    >  net_version: []
+[2025/05/13 23:29:13.216] -    >  net_version: []
+[2025/05/13 23:29:13.228] -    >  eth_blockNumber: []
+[2025/05/13 23:29:13.239] -    >  net_version: []
+[2025/05/13 23:30:13.222] -    >  net_version: []
+[2025/05/13 23:30:13.232] -    >  eth_blockNumber: []
+[2025/05/13 23:30:14.343] -    >  net_version: []
+[2025/05/13 23:31:14.323] -    >  net_version: []
+[2025/05/13 23:31:14.336] -    >  eth_blockNumber: []
+[2025/05/13 23:31:14.343] -    >  net_version: []
+[2025/05/13 23:32:14.322] -    >  net_version: []
+[2025/05/13 23:32:14.337] -    >  eth_blockNumber: []
+[2025/05/13 23:32:14.343] -    >  net_version: []
+[2025/05/13 23:33:14.327] -    >  net_version: []
+[2025/05/13 23:33:14.337] -    >  eth_blockNumber: []
+[2025/05/13 23:33:14.344] -    >  net_version: []
+[2025/05/13 23:33:17.763] -    >  eth_blockNumber: []
+[2025/05/13 23:33:37.775] -    >  eth_blockNumber: []
+[2025/05/13 23:33:57.782] -    >  eth_blockNumber: []
+[2025/05/13 23:34:14.327] -    >  net_version: []
+[2025/05/13 23:34:14.341] -    >  net_version: []
+[2025/05/13 23:34:15.090] -    >  eth_unsubscribe: [
+   >   "0x4"
+   > ]
+[2025/05/13 23:34:15.091] -    >  eth_unsubscribe: [
+   >   "0x5"
+   > ]

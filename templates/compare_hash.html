@@ -1,0 +1,34 @@
+<!-- templates/compare_hash.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🔍 So sánh mã băm ảnh</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background-color: #f5f5f5; }
+    h2 { color: #333; }
+    input, button { padding: 10px; margin: 10px 0; width: 100%; }
+    .result { margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>🔍 So sánh mã hash từ ảnh</h2>
+  <form action="/compare-hash" method="post" enctype="multipart/form-data">
+    <label>📤 Chọn ảnh cần băm:</label>
+    <input type="file" name="file" required>
+
+    <label>🔑 Nhập mã hash để so sánh:</label>
+    <input type="text" name="input_hash" placeholder="Nhập mã hash..." required>
+
+    <button type="submit">🧪 So sánh</button>
+  </form>
+
+  {% if result %}
+    <div class="result">
+      <p>Mã băm ảnh tải lên: <code>{{ computed_hash }}</code></p>
+      <p>Kết quả so sánh: <strong style="color:{{ 'green' if result == 'Khớp' else 'red' }}">{{ result }}</strong></p>
+    </div>
+  {% endif %}
+
+  <a href="/" style="display:block;margin-top:20px;">⬅ Quay lại trang chính</a>
+</body>
+</html>

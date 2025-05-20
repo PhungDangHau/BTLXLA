@@ -12,6 +12,7 @@ import json
 import requests
 import datetime
 import csv
+import hashlib
 
 # ========== Flask setup ==========
 app = Flask(__name__)
@@ -28,7 +29,7 @@ ESP32_STREAM_URL = "http://192.168.109.61/"
 
 # ========== Web3 & Contract Setup ==========
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:7545"))
-account = w3.eth.accounts[0]
+account = w3.eth.accounts[1]
 
 with open("abi.json") as f:
     abi = json.load(f)
@@ -165,6 +166,18 @@ def uploaded_file(filename):
 @app.route('/result/<filename>')
 def result_file(filename):
     return send_from_directory(app.config['RESULT_FOLDER'], filename)
+@app.route('/compare-hash', methods=['GET', 'POST'])
+def compare_hash():
+    result = None
+    computed_hash = None
+    if request.method == 'POST':
+        file = request.files['file']
+        input_hash = request.form['input_hash'].strip().lower()
+        if file:
+            content = file.read()
+            computed_hash = hashlib.sha256(content).hexdigest()
+            result = "Khớp" if computed_hash == input_hash else "Không khớp"
+    return render_template('compare_hash.html', result=result, computed_hash=computed_hash)
 
 # ========== Chạy Flask ==========
 if __name__ == '__main__':
